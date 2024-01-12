@@ -1,11 +1,28 @@
 @media only screen and (max-width: 1200px){
+    .first-sec{
+        padding: 0 50px;
 
+    }
 }
 
 
 
 @media only screen and (max-width: 768px){
 
+    html,body{
+        overflow-x: hidden;
+    }
+    .first-sec{
+        padding: 0 70px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+      }
 }
 
 @media only screen and (max-width: 480px){
