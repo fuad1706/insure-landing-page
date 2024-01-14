@@ -87,6 +87,11 @@ nav ul li a{
     position: relative;
 }
 
+.intro-left-mob,
+.intro-right-mob{
+  display: none;
+}
+
 .secons-sec .intro-left{
         position: absolute;
         bottom: -333px;
