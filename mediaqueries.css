@@ -260,8 +260,10 @@
 
 @media only screen and (max-width: 700px){
   .footera .logo-footer{
-    margin-left: 230px;
+    /* margin-left: 230px; */
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
 
@@ -339,8 +341,10 @@
         }
 
         .footera .logo-footer{
-          margin-left: 115px;
+          /* margin-left: 115px; */
           margin-bottom: 40px;
+          margin-left: auto;
+          margin-right: auto;
       }
 
 
@@ -408,7 +412,9 @@
 
 
         .footera .logo-footer{
-          margin-left: 68px;
+          /* margin-left: 68px; */
           margin-bottom: 40px;
+          margin-left: auto;
+          margin-right: auto;
       }
 }
