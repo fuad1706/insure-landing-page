@@ -74,10 +74,10 @@
       .secons-sec{
         flex-direction: column-reverse;
         width: 100%;
-        /* height: 1500px; */
+        height: fit-content;
         padding: 0;
         text-align: center;
-        padding-top: 763px;
+        /* padding-top: 763px; */
       }
 
       .seconseca:before{
@@ -86,14 +86,18 @@
 
       .seconseca{
         width: 100%;
-        /* height: 600px; */
+        /* height: 800px; */
         /* margin: 0; */
         margin-top: 0;
         bottom: 0;
       }
 
       .seconseca h1{
-        /* margin-top: 50px; */
+        margin-top: 50px;
+      }
+
+      .view2{
+        margin-bottom: 50px;
       }
 
       .seconsecb{
@@ -112,8 +116,9 @@
       .seconsecb .intro-desk{
         margin-top: 0;
         width: 100%;
-        height: 500px;
-        /* margin-bottom: 50px; */
+        /* height:min-content; */
+        /* display: none; */
+        /* margin-top: -5000px; */
       }
 
       .third-sec{
@@ -214,6 +219,11 @@
   margin-bottom: 30px;
 }
 
+.footera .logo-footer{
+    margin-left: 263px;
+    margin-bottom: 40px;
+}
+
 }
 
 
@@ -235,6 +245,10 @@
 @media only screen and (max-width: 480px){
     .first-sec{
         padding: 0 30px; }
+
+        .seconseca p br{
+          display: none;
+        }
 
         .seconsecb .intro-desk{
           height: 470px;
@@ -283,6 +297,11 @@
           /* margin-bottom: 70px; */
         }
 
+        .footera .logo-footer{
+          margin-left: 115px;
+          margin-bottom: 40px;
+      }
+
 
 
 
@@ -298,6 +317,10 @@
 @media only screen and (max-width: 375px){
     .first-sec{
         padding: 0 30px; }
+
+        .seconseca p{
+          font-size: ;
+        }
 
         .seconsecb .intro-desk{
           display: none;
@@ -336,4 +359,10 @@
           color: var(--very--light--gray);
           /* margin-bottom: 70px; */
         }
+
+
+        .footera .logo-footer{
+          margin-left: 68px;
+          margin-bottom: 40px;
+      }
 }

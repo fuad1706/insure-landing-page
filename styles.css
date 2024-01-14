@@ -100,6 +100,7 @@ nav ul li a{
 }
 
 .seconseca{
+  width: 45%;
     margin-top: 200px;
     position: relative;
 }
@@ -123,7 +124,7 @@ nav ul li a{
 .seconseca p{
     color: var(--very--light--gray);
     margin-bottom: 40px;
-    /* font-size: 15px; */
+    font-size: 15px;
 }
 
 .seconseca .view2{
@@ -139,9 +140,9 @@ nav ul li a{
 }
 
 .seconsecb{
-  margin-left: 100px;
+  margin-left: 110px;
   /* background-image: url(./images/image-intro-desktop.jpg); */
-  /* width: 100%; */
+  width: 45%;
   /* background-repeat: no-repeat; */
   /* z-index: 1; */
 }
@@ -289,7 +290,7 @@ nav ul li a{
 }
 
 .footer-nav li{
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   list-style: none;
 }
 
